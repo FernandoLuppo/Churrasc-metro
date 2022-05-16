@@ -4,7 +4,7 @@
   
 <p align="center">Olá!! Esse é meu primeiro projeto feito com JavaScript, um churrascômetro, 
  que serve para calcular o quanto de comida e bebida é consumido por convidado em um churrasco, 
- caso dure mais de 6 horas o calculo de comida e bebida é alterado , acrecentando uma pequena porcentagem a mais 
+ caso dure mais de 6 horas o calculo de comida e bebida é alterado , acrescentando uma pequena porcentagem a mais 
  para não faltar suprimentos na festa.
   
 <br><br>
@@ -17,7 +17,7 @@
 <p>CSS.
 <p>HTML.
   
-<h4>Link para testar a página:
+<h4>Link para testar a página: https://churrascometro-luppotw.netlify.app/
    
 <br><br>
    
