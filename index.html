@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/Pernil-icon.png"  type="image/png">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="./Images/ox.png" alt="ox icon">
+    <h2>LuppoTW Churrasco</h2>
+</header>
+
+<div id="container">
+
+    <article>
+        <div id="img-grill">
+            <img src="./Images/grill2.png" alt="Gril Icon">
+        </div>
+
+        <h2>Vamos fazer seu Churrasco Juntos?!</h2>
+    </article>
+
+    <article>
+        <p>Para que seu churrasco seja calculado da maneira certa, preenche corretamente os campos abaixo</p>
+    </article>
+
+    <section>
+
+        <!------- People part ------->
+
+        <h1 class="title">Quantas pessoas irão participar?</h1>
+
+        <div class="contents">
+
+            <div class="responsive">
+                <h1>Homem</h1>
+                <img class="image" src="./Images/men.png" alt="Men icon">
+                <input id="men-count" type="number" name="Quantidade">
+            </div>
+
+            <div class="responsive">
+                <h1>Mulhere</h1>
+                <img class="image" src="./Images/woman.png" alt="Woman icon">
+                <input id="woman-count" type="number" name="Quantidade">
+            </div>
+
+            <div class="responsive">
+                <h1>Criança</h1>
+                <img class="image" src="./Images/chiold.png" alt="Chiold icon">
+                <input id="chiold-count" type="number" name="Quantidade">
+            </div>
+
+        </div>
+
+        <!------- drinks part ------->
+
+        <h1 class="title">Quantas pessoas vão beber bebidas alcoólicas e quantas vão beber outros tipos de bebidas?</h1>
+
+        <div class="contents">
+
+            <div class="responsive">
+                <h1>Bebidas não alcoólicas</h1>
+                <img class="image" src="./Images/soda.png" alt="Soda icon">
+                <input id="non-alcoholic-drinks-count" type="number" name="Quantidade">
+            </div>
+
+            <div class="responsive">
+                <h1>Bebidas alcoólicas</h1>
+                <img class="image" src="./Images/beer.png" alt="Beer icon">
+                <input id="alcoholic-drinks-count" type="number" name="Quantidade">
+            </div>
+
+        </div>
+
+        <!------- time part ------->
+
+        <h1 class="title">Qual o tempo médio do churrasco?</h1>
+
+        <div class="contents">
+
+            <div id="responsive">
+                <h1>Tempo em Horas</h1>
+                <img class="image" src="./Images/clock.png" alt="Clock icon">
+                <input id="time-count" type="number" name="numero">
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <div id="button">
+        <a href="#result"><button id="button-calc"  onclick="calc(this)" value="Calcular">Calcular</button></a>
+    </div>
+
+    <div id="span">
+    <span id="result"></span>
+    </div>
+
+    <article id="link">
+        <h1 class="title">Font</h1>
+        <p>As informações sobre quantidade de alimentos, bebida por pessoa e tempo foram tiradas do site <strong><a href="https://www.sociedadedacarne.com.br/blog/como-calcular-quantidade-de-carne-para-churrasco/#:~:text=Churrasco%20que%20re%C3%BAne%20os%20amigos,200%20g%20para%20as%20crian%C3%A7as.">"sociedadedacarne.com.br"</a></strong></p>
+    </article>
+
+</div>
+
+<footer>
+
+    <span>&copy;LuppoTW</span>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+ <!-- colocar o tempo que vai durar o churrasco
+ arrumar o footer
+ link do site da pesquisa: https://www.sociedadedacarne.com.br/blog/como-calcular-quantidade-de-carne-para-churrasco/#:~:text=Churrasco%20que%20re%C3%BAne%20os%20amigos,200%20g%20para%20as%20crian%C3%A7as. -->
