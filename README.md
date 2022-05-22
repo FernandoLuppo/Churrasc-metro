@@ -4,8 +4,7 @@
   
 <p align="center">Olá!! Esse é meu primeiro projeto feito com JavaScript, um churrascômetro, 
  que serve para calcular o quanto de comida e bebida é consumido por convidado em um churrasco, 
- caso dure mais de 6 horas o calculo de comida e bebida é alterado, acrescentando uma pequena porcentagem a mais 
- para não faltar suprimentos na festa.
+ o processo funciona calculando a quantidade média de consumo dos convidados multiplicado pela hora de duração do evento.
   
 <br><br>
   
