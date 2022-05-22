@@ -6,81 +6,46 @@ let drinkBeer = document.getElementById("alcoholic-drinks-count");
 let duration = document.getElementById("time-count");
 let result = document.getElementById("result")
 
-let timer = duration.value
+function timeFood() {
 
+    let time = duration.value;
+    let food = (adultMale.value + adultFemale.value) * 125;
+    let foodKid = chiold.value * 62.5; 
 
-function calculatorPeople() {
-    let timer = duration.value
-    let men = adultMale.value
-    let woman = adultFemale.value
-    let kid = chiold.value
-
-    let calcAdultFood = food(timer) * men + food(timer) * woman;
-    let calcChioldFood = food(timer) / 2 * kid;
-    
-    let finalCalcFood = calcAdultFood + calcChioldFood; 
-    result.innerHTML = `<p>${finalCalcFood / 1000} Kg de carne</p>`;
-   
-}
-
-
-function calculatorDrink() {
-    let timer = duration.value
-    let soda = drinkSoda.value
-    
-    let calcAdultDrink = sodaDrink(timer) * soda;
-    let calcChioldDrink = sodaDrink(timer) / 2 * soda;
-
-    let finalCalcDrink = calcAdultDrink + calcChioldDrink;
-    result.innerHTML += " " + `<p>${finalCalcDrink / 1000} L de refrigerante</p>`;
+    let foodForTime = (food + foodKid) * time;
+    result.innerHTML = `<p>${foodForTime / 1000} Kl de carne</p>`;
 
 }
 
 
-function calculatorAlcoholicDrink() {
-    let timer = duration.value
-    let beer = drinkBeer.value
+function timeSoda() {
 
-    let calcAlcoholicDrinks = beerDrink(timer) * beer
-    result.innerHTML += " " + `<p>${calcAlcoholicDrinks / 1000} L de bebida alcoólica</p>`;
+    let time = duration.value;
+    let soda = drinkSoda.value * 225;
 
-}
-
-
-function food(timer) {
-
-    if (timer >= 6){
-        return 650;}
-    else {
-        return 400;}
-
-}
-    
-function sodaDrink(timer) {
-
-    if (timer >= 6){
-        return 1400;}
-    else {
-        return 900;}
+    let sodaForTime = soda * time;
+    result.innerHTML += `<p>${sodaForTime / 1000} L de refrigerante</p>`;
 
 }
 
-function beerDrink(timer) {
 
-    if (timer >= 6){
-        return 2800;}
-    else {
-        return 2000;}
+function timeBeer() {
+
+    let time = duration.value;
+    let beer = drinkBeer.value * 500;
+
+    let beerForTime = beer * time;
+    result.innerHTML += `<p>${beerForTime / 1000} L de cerveja</p>`;
 
 }
 
 
 function calc() {
-    
-    calculatorPeople()
-    calculatorDrink()
-    calculatorAlcoholicDrink()
-    
+
+    timeFood()
+    timeSoda()
+    timeBeer()
+
 }
 
 

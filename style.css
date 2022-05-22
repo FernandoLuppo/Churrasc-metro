@@ -17,8 +17,10 @@ header {
     border: 0px solid #00000096;
     border-width: 0px 0px 1px 0px;}
 
+
 header img {
     width: 50px;}
+
 
 header h2 {
     color: #ffffff;}
@@ -26,10 +28,11 @@ header h2 {
 
 /* ------------------------------------- body ------------------------------------- */
 
+
 body {
     background-color: antiquewhite;}
 
-    
+
 #container{
     background-color: #ffffff;
     margin: auto;
@@ -39,6 +42,9 @@ body {
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
     border-radius: 20px;}
+
+
+/* ------------------------------------- introduction ------------------------------------- */
 
 
 article img {
@@ -62,6 +68,20 @@ article h2 {
 article p {
     margin-top: 20px;
     text-align: center;}
+
+
+#introduction-cuontainer {
+    text-align: center;
+    margin: auto;
+    width: 60%;}
+
+
+#introduction-cuontainer a {
+    color: #000000;
+    text-decoration: none;}
+
+
+/* ------------------------------------- content ------------------------------------- */
 
 
 .title {
@@ -104,7 +124,7 @@ article p {
 
 #button-calc {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-top: 80px;
     padding: 15px;
     padding-left: 80px;
@@ -117,28 +137,20 @@ article p {
     cursor: pointer;
     transition: transform 0.9s}
 
+    
 #button-calc:hover {
     transform: scale(1.05);
     border-color: #F0443E;
     background-color: #F0443E;
-    color: #ffffff;
-}
+    color: #ffffff;}
 
 
 #span {
-    text-align: center;}
-
-
-#link {
-    font-size: 15px;
     text-align: center;
-    padding-bottom: 15px;}
+    padding-bottom: 80px;}
 
 
-#link p a {
-    width: 80%;
-    color:#2e2e2e;
-    text-decoration:none;}
+/* ------------------------------------- footer ------------------------------------- */
 
 
 footer {
@@ -148,6 +160,8 @@ footer {
     font-weight: bolder;
     padding: 10px;}
 
+
+/* ------------------------------------- responsiveness ------------------------------------- */
 
 @media screen and (max-width: 420px) {
 
