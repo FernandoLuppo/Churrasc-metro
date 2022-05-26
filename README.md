@@ -1,5 +1,5 @@
 <div align="center">
-<h1> 🚀 Finalizado | Churrascometro 🚀
+<h1> 🥩 Churrascometro 🥩
 </div>
   
 <p align="center">Olá!! Esse é meu primeiro projeto feito com JavaScript, um churrascômetro, 
